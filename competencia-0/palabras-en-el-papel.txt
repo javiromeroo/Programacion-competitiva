@@ -1,0 +1,10 @@
+Tenemos una grilla de 8×8, en la cual existe una palabra oculta que consiste de letras minúsculas escrita de forma vertical en una columna de la grilla, de arriba hacia abajo. ¿Puedes identificar cuál es la palabra?
+
+Entrada: El input consiste de multiples casos de prueba. La primera linea del input contiene un solo entero t (1≤t≤1000)  que representa un número de casos de prueba
+
+Cada caso de prueba consiste en 8 líneas, cada una contiene 8 carácteres. Estos carácteres pueden ser un . o una letra minúscula del alfabeto (a–z).
+
+La palabra existe en una sola columna y es continua desde el inicio hasta su fin (no contiene espacios). 
+
+Salida: Para cada caso de prueba, imprime una solo línea que contenga la palabra oculta en la grilla
+

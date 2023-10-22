@@ -1,0 +1,11 @@
+Julieta está dando PSS y odia a sus ayudantes. Está dando el control 1 y tiene un programa que funciona pero quiere ofuscarlo (hacerlo intencionalmente difícil de leer) para que sea una pesadilla para sus ayudantes revisarlo.
+
+Para ofuscarlo va a hacer lo siguiente: toma la primera variable del programa y reemplaza todas sus ocurrencias por la letra a, luego mira la segunda variable que no haya sido reemplazada y reemplaza todas sus ocurrencias por la letra b, y así. Sabes que el programa tenía a lo más 26 variables originalmente.
+
+Te dan una lista de variables ordenadas sin espacios ni saltos de línea. Revisa si esta lista de variables pudo haber sido resultado de la ofuscación de Julieta.
+
+
+Entrada: En la única linea del input hay un string S de letras minusculas (1 ≤ |S| ≤ 500) — las variables del programa.
+
+
+Salida: Si el programa pudiera ser resultado de una ofuscación, imprime "YES" (sin comillas), en otro caso imprime "NO".

@@ -1,0 +1,33 @@
+Hay una misteriosa estructura de datos que posee dos métodos:
+
+insertar(v): Inserta el elemento 
+v a la estructura.
+pop(): Quita un elemento y retorna su valor.
+Dada una secuencia de operaciones de ambos tipos, tu misión es adivinar qué tipo de estructura se está usando. Las posibilidades son una pila (stack), una cola (queue) o una cola de prioridad (priority queue) cuyo pop retorna el número máximo.
+
+Específicamente, las operaciones se indican con:
+
+1 v: Significa que se llamó insertar(v).
+2 v: Significa que se llamó pop() y retornó v.
+
+Entrada: 
+Hay varios casos de prueba.
+
+Cada caso de prueba comienza con un 
+n, indicando la cantidad de operaciones.
+
+Las siguientes 
+n líneas contienen las operaciones en el formato op v donde 
+op es 1 o 2 y 
+v (1≤v≤100) indica el valor asociado a la operación descrita en el enunciado.
+
+El input termina con EOF (end-of-file).
+
+
+Salida: 
+Para cada caso de prueba debes imprimir una línea con:
+stack si la estructura corresponde a una pila,
+queue si corresponde a una cola,
+priority queue si corresponde a una cola de prioridad,
+impossible si no puede ser ninguna de las anteriores,
+not sure si puede ser más de una de las anteriores.
